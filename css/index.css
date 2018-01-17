@@ -1,6 +1,4 @@
-/** {
-  border: red 1px solid;
-}*/
+/* part 1: buttons */
 
 .mainNav {
   margin: 0 auto;
@@ -29,3 +27,20 @@
   text-align: center;
   width: 100px;
 }
+
+/* part 2: hover*/
+
+.mainNav-divHover {
+  display: inline-block;
+  margin: 5px auto;
+}
+
+/*part 3: key press*/
+
+.mainNav-h1Key {
+  display: inline-block;
+  margin: 5px auto;
+  text-align: center;
+}
+
+/* part 4: login */

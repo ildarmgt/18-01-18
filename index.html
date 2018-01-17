@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 <!-- Complete and submit the following three exercises to go over JavaScript event binding:
 
-Create an HTML page with two buttons that argue with each other. When one button is clicked, the text "I'm right" should be placed next to it. When the other button is clicked, the text is replaced with, "No, I'm right!"
-Create an HTML page with a large element on the page that says "Don't hover over me" inside of it. When you hover over the element, send an alert to the user that says, "Hey, I told you not to hover over me!"
-Create an HTML page with javascript that listens for a keypress.
-When the user presses that key, the text of the h1 should show the value of the key they have pressed.
-Example: If the user presses "J", the text inside the h1 should be "J".
 Create an HTML page with a form. The form should include inputs for a username, password, an h1 tag as well as a button. In a Javascript file, write code that does the following things when the button is pressed:
 checks that the password is 12345678
 checks that the username is less than 14 characters in length
@@ -26,6 +21,9 @@ All solutions should explicitly fulfill the requirements noted in each problem. 
 	</head>
 
 	<body>
+
+		<!-- part 1: buttons-->
+
 		<div class="mainNav">
 			<div class="mainNav-divLeft mainNav-div">
 				<div class="mainNav-divLeft-txt mainNav-div-txt"></div>
@@ -39,15 +37,35 @@ All solutions should explicitly fulfill the requirements noted in each problem. 
 				<input type="submit" class="mainNav-divRight-btn mainNav-div-btn" name="" value="BOOM">
 			</div>
 
+			<hr> <!-- part 2: hover-->
 
-			<hr> <!-- Next part -->
+			<div class="mainNav-divHover">
+				Don't hover over me
+			</div>
 
+			<hr> <!-- part 3: key press -->
 
+			<h1 class="mainNav-h1Key">
+				Waiting for key press...
+			</h1>
 
+			<hr> <!-- part 4: login -->
+
+			<br>
+			Username: <input type="text" class="mainNav-txtUser" value="">
+			<br>
+			Password: <input type="password" class="mainNav-txtPass" value="">
+			<br>
+			<input type="submit" class="mainNav-btnSubmit" value="Submit">
+			<br>
+			<h1 class="mainNav-h1Login">
+
+			</h1>
 
 
 
 		</div>
+
 		<script class="text/javascript" src="scripts/index.js"></script>
 	</body>
 </html>
