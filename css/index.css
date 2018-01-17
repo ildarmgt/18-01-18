@@ -1,0 +1,31 @@
+/** {
+  border: red 1px solid;
+}*/
+
+.mainNav {
+  margin: 0 auto;
+  text-align: center;
+  width: 95%;
+}
+
+.mainNav-div {
+  display: inline-block;
+  margin: 5px 5px;
+  text-align: center;
+}
+
+.mainNav-div-txt {
+  display: inline-block;
+  height: 100px;
+  margin: 5px 5px;
+  text-align: center;
+  width: 200px;
+}
+
+.mainNav-div-btn {
+  display: inline-block;
+  height: 50px;
+  margin: 5px 5px;
+  text-align: center;
+  width: 100px;
+}
